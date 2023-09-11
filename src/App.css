@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
   height: 40vmin;
@@ -11,16 +9,12 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: black;
 }
-.round-button-container {
-  align-items: initial; 
-}
 .round-button {
-  height: 10em;
+  height: 7em;
+  width: 10em;
   margin-top: 2em;
   border-radius: 1.2em;
   background-color: #BD3F28;
@@ -28,8 +22,7 @@
   font-size: 18px;
   border: none;
   cursor: pointer;
-  margin-right: 1em;
-  padding: 2em;
+  margin-left: 3em;
 }
 .App-link {
   color: #61dafb;
@@ -46,8 +39,8 @@ header {
   display: block;
   position: absolute;
   bottom: 1em;
-  left: 0;
-  width: 100%;
+  left: 3em;
+  width: 93%;
   height: 1px; 
   background-color: black;
 }
@@ -83,13 +76,14 @@ nav a:hover {
 }
 .rectangle-container {
   position: relative;
-  margin-right: 1em; 
-  margin-left: 1em;
+  margin-right: 3em; 
+  margin-left: 3em;
   height: 20em;  
   background-color: #BD3F28;
   border-radius: 20px; 
   overflow: hidden;
   display: flex;
+  text-align: center;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
@@ -118,4 +112,19 @@ nav a:hover {
   font-size: 2.5em; 
   font-weight: bold;
   z-index: 1; 
+}
+.ofertas-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.ofertas-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ofertas-images img {
+  width: 200px; /* Ajusta el tamaño de las imágenes según tus necesidades */
+  margin: 0 10px; /* Espacio entre las imágenes */
 }

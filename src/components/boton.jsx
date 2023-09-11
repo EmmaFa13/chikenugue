@@ -2,11 +2,9 @@ import React from 'react';
 
 const Boton = ({ label, onClick }) => {
   return (
-    <div className="round-button-container">
-      <button className="round-button" onClick={onClick}>
-        <span>Hola</span>
-      </button>
-    </div>
+    <button className="round-button" onClick={onClick}>
+      <span>Ordena ahora</span>
+    </button>
   );
 };
 
