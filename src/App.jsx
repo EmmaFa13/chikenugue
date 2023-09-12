@@ -12,8 +12,6 @@ function App() {
       <div className="App">
         <Header />
         <Banner />
-        <Boton />
-        <Ofertas />
       </div>
     </BrowserRouter>
   );
