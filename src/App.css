@@ -13,16 +13,16 @@
   color: black;
 }
 .round-button {
-  height: 7em;
-  width: 10em;
-  margin-top: 2em;
+  height: 9em;
+  width: 12em;
+  margin-top: 4em;
   border-radius: 1.2em;
   background-color: #BD3F28;
   color: #EECC0A;
   font-size: 18px;
   border: none;
   cursor: pointer;
-  margin-left: 3em;
+  margin-left: 8em;
 }
 .App-link {
   color: #61dafb;
@@ -98,8 +98,8 @@ nav a:hover {
 }
 
 .circle-image {
-  width: 50px; 
-  height: 50px;
+  width: 13em; 
+  height: 13em;
   border-radius: 50%; 
 }
 
@@ -114,17 +114,19 @@ nav a:hover {
   z-index: 1; 
 }
 .ofertas-container {
-  text-align: center;
-  margin-top: 20px;
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  margin-top: -14em;
+  margin-right: -13em; 
 }
-
 .ofertas-images {
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
 .ofertas-images img {
-  width: 200px; /* Ajusta el tamaño de las imágenes según tus necesidades */
-  margin: 0 10px; /* Espacio entre las imágenes */
+  width: 15em; 
+  margin: 0 1em; 
+  border-radius: 1.2em;
 }
