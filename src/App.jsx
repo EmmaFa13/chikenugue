@@ -12,6 +12,9 @@ function App() {
       <div className="App">
         <Header />
         <Banner />
+        <div>
+          <p>Hola</p>
+        </div>
       </div>
     </BrowserRouter>
   );
