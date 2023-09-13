@@ -6,6 +6,8 @@ import Header from './components/nav';
 import Boton from './components/boton';
 import Ofertas from './components/ofertas'
 import {AppRoutes} from './components/routes';
+import Orden from './components/ordenar';
+import Login from './components/login';
 function App() {
   return (
     <BrowserRouter>
@@ -14,6 +16,9 @@ function App() {
         <Banner />
         <Boton />
         <Ofertas />
+        <Header/>
+        <Orden />
+        <Login/>
       </div>
     </BrowserRouter>
   );

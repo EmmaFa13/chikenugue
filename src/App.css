@@ -1,5 +1,4 @@
 
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -11,6 +10,7 @@
   flex-direction: column;
   font-size: calc(10px + 2vmin);
   color: black;
+  align-items: center;
 }
 .round-button {
   height: 9em;
@@ -128,5 +128,107 @@ nav a:hover {
 .ofertas-images img {
   width: 15em; 
   margin: 0 1em; 
+  border-radius: 1.2em;
+}
+.menu-container {
+  margin: 0em;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.menu-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 1em;
+  
+}
+
+.platillo {
+  flex-basis: calc(20% - 1em);
+  padding: 2em;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-right: 3em;
+  margin-left: 3em;
+}
+.platillo-img {
+  max-width: 60%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.platillo-text {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.platillo-input {
+  width: 4em;
+  height: 2em;
+  margin-top: 10px;
+  text-align: center;
+  border: 1px solid #BD3F28;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.order-button {
+  width: 12em;
+  height: 4em;
+  margin: 2em;
+  background-color: #BD3F28;
+  color: #EECC0A;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 1.2em;
+}
+.login-container {
+  background-color: white;
+  padding: 2em;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.login-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+  width: 100%;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #BD3F28;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.login-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #BD3F28;
+  color: #EECC0A;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
   border-radius: 1.2em;
 }
