@@ -26,7 +26,7 @@ function Pedido() {
         <div className="caja1">
           <h4>pedido anterior</h4>
           <img src={img1} alt="pedido" className="imagen" />
-          <p>complementos</p>
+          <p>pollo</p>
           <p>refresco</p>
           <p>papas</p>
           <h4>pedido entregado</h4>
