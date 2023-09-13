@@ -1,4 +1,3 @@
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -10,7 +9,6 @@
   flex-direction: column;
   font-size: calc(10px + 2vmin);
   color: black;
-  align-items: center;
 }
 .round-button {
   height: 9em;
@@ -130,6 +128,7 @@ nav a:hover {
   margin: 0 1em; 
   border-radius: 1.2em;
 }
+/* esto es lo nuevo*/
 .menu-container {
   margin: 0em;
   display: flex;
@@ -142,7 +141,7 @@ nav a:hover {
   justify-content: space-between;
   width: 100%;
   margin-bottom: 1em;
-  
+
 }
 
 .platillo {
@@ -231,4 +230,77 @@ nav a:hover {
   border: none;
   cursor: pointer;
   border-radius: 1.2em;
+}
+
+
+
+.section {
+  background-color: white;
+  justify-content: space-between;
+  padding: 15px 30px;
+  position: relative;
+}
+
+.pedido {
+  text-align: center;
+}
+
+.pedido2 {
+  text-align: center;
+  padding: 15px 30px;
+}
+
+.caja{
+  margin: 0 7rem 5rem 7rem;
+  float: left;
+}
+
+.caja1 {
+  flex-basis: calc(33.33% - 20px);
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  float: left;
+  width: 20rem;
+}
+.order-button {
+  width: 5em;
+  height: 3em;
+  margin: auto;
+  background-color: #BD3F28;
+  color: #EECC0A;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 1.2em;
+}
+
+.caja2 {
+  flex-basis: calc(33.33% - 20px);
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  float: left;
+  width: 20rem;
+}
+
+.caja3 {
+  flex-basis: calc(33.33% - 20px);
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  float: left;
+  width: 20rem;
+}
+
+.imagen {
+  max-width: 60%;
+  height: auto;
+  border-radius: 10px;
 }
