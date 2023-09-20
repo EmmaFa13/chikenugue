@@ -9,6 +9,7 @@ import {AppRoutes} from './components/routes';
 import Pedido from './components/pedido';
 import Login from './components/login';
 import Orden from './components/ordenar';
+import Footer from './components/footer';
 function App() {
   return (
     <BrowserRouter>
@@ -22,6 +23,7 @@ function App() {
         <Login/>
         <Pedido />
       </div>
+      <Footer/>
     </BrowserRouter>
   );
 }

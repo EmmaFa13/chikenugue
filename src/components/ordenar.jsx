@@ -1,5 +1,5 @@
-import React from 'react';
-import img1 from '../images/polloOf.jpg';
+import React from "react";
+import img1 from "../images/polloOf.jpg";
 function Orden() {
   return (
     <div className="App-header">
@@ -22,7 +22,6 @@ function Orden() {
             <input type="number" className="platillo-input" value="0" />
           </div>
         </div>
-
       </div>
       <button className="order-button">Ordenar</button>
     </div>

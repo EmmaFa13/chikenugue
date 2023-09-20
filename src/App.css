@@ -127,7 +127,7 @@ nav a:hover {
 
 .ofertas-images img {
   width: 15em; 
-  margin: 0 1em; 
+  margin: 1em 1em; 
   border-radius: 1.2em;
 }
 /* esto es lo nuevo*/
@@ -240,7 +240,7 @@ nav a:hover {
   background-color: white;
   justify-content: space-between;
   padding: 15px 30px;
-  position: relative;
+  
 }
 
 .pedido {
@@ -265,7 +265,8 @@ nav a:hover {
   text-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   float: left;
-  width: 20rem;
+  margin: 0.5rem;
+  width: 19rem;
 }
 .order-button {
   width: 5em;
@@ -279,30 +280,18 @@ nav a:hover {
   border-radius: 1.2em;
 }
 
-.caja2 {
-  flex-basis: calc(33.33% - 20px);
-  padding: 10px;
-  background-color: white;
-  border-radius: 10px;
-  text-align: center;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  float: left;
-  width: 20rem;
-}
-
-.caja3 {
-  flex-basis: calc(33.33% - 20px);
-  padding: 10px;
-  background-color: white;
-  border-radius: 10px;
-  text-align: center;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  float: left;
-  width: 20rem;
-}
-
 .imagen {
   max-width: 60%;
   height: auto;
   border-radius: 10px;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 3px;
+  background-color: #e74326;
+  text-align-last: center;
+  
 }
