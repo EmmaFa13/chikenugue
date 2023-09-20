@@ -5,7 +5,6 @@ function Pedido() {
     <div>
       <section className="section">
         <h2 className="pedido">PEDIDO</h2>
-      </section>
       <div className="caja">
         <div className="caja1">
           <h4>pedido en camino</h4>
@@ -32,6 +31,7 @@ function Pedido() {
           <h4>pedido entregado</h4>
         </div>
       </div>
+      </section>
     </div>
   );
 }

@@ -237,9 +237,10 @@ nav a:hover {
 
 
 .section {
-  background-color: white;
-  justify-content: space-between;
-  padding: 15px 30px;
+  margin: 0em;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
   
 }
 
@@ -247,14 +248,9 @@ nav a:hover {
   text-align: center;
 }
 
-.pedido2 {
-  text-align: center;
-  padding: 15px 30px;
-}
-
 .caja{
   margin: 0 7rem 5rem 7rem;
-  float: left;
+  
 }
 
 .caja1 {
