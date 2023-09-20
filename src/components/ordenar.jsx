@@ -9,17 +9,17 @@ function Orden() {
           <div className="platillo">
             <img src={img1} alt="Platillo 1" className="platillo-img" />
             <p className="platillo-text">Platillo 1</p>
-            <input type="number" className="platillo-input" value="0" />
+            <input type="number" className="platillo-input" defaultValuevalue="0" />
           </div>
           <div className="platillo">
             <img src={img1} alt="Platillo 2" className="platillo-img" />
             <p className="platillo-text">Platillo 2</p>
-            <input type="number" className="platillo-input" value="0" />
+            <input type="number" className="platillo-input" defaultValuevalue="0" />
           </div>
           <div className="platillo">
             <img src={img1} alt="Platillo 3" className="platillo-img" />
             <p className="platillo-text">Platillo 3</p>
-            <input type="number" className="platillo-input" value="0" />
+            <input type="number" className="platillo-input" vdefaultValuevalue="0" />
           </div>
         </div>
       </div>

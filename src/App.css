@@ -22,7 +22,7 @@
   font-size: 18px;
   border: none;
   cursor: pointer;
-  margin-left: 8em;
+  margin-left: 2em;
 }
 .App-link {
   color: #61dafb;
@@ -117,8 +117,8 @@ nav a:hover {
   display: flex;
   flex-direction: column; 
   align-items: center; 
-  margin-top: -14em;
-  margin-right: -13em; 
+  margin-top: -14em ;
+  margin-left: 20em; 
 }
 .ofertas-images {
   display: flex;
@@ -241,7 +241,7 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   align-items: center; 
-  
+
 }
 
 .pedido {
@@ -290,4 +290,24 @@ nav a:hover {
   background-color: #e74326;
   text-align-last: center;
   
+}
+.nav{
+  align-content: center;
+  margin-right: 0.5em;
+  margin-left: -1em;
+  
+}
+
+.y{
+  padding-inline-start: 1em;
+}
+
+.marco{
+  text-align: center;
+  margin: 2em;
+}
+
+.preguntas{
+  text-align: center;
+  margin: 2em;
 }
