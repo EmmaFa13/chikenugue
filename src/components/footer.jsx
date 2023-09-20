@@ -18,9 +18,9 @@ function Footer() {
       <div className="nav">
         <h4> CHIKENUGUE contactanos</h4>
         
-          <SocialIcon className="y" url="https://twitter.com" />
-          <SocialIcon className="y" url="https://facebook.com" />
-          <SocialIcon  className="y"url="https://youtube.com" />
+          <SocialIcon className="y" url="https://twitter.com/CHIKENUGUE" />
+          <SocialIcon className="y" url="https://facebook.com/CHIKENUGUE" />
+          <SocialIcon  className="y"url="https://youtube.com/CHIKENUGUE" />
         </div>  
     </footer>
   );
