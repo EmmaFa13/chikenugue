@@ -1,5 +1,3 @@
-
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -12,6 +10,7 @@
   font-size: calc(10px + 2vmin);
   color: black;
 }
+/*aqui comiensa el boton.jsx*/
 .round-button {
   height: 9em;
   width: 12em;
@@ -22,11 +21,16 @@
   font-size: 18px;
   border: none;
   cursor: pointer;
-  margin-left: 8em;
+  margin-left: 2em;
 }
+/*aqui acaba*/
+
+
 .App-link {
   color: #61dafb;
 }
+
+/*aqui comiensa el nav.jsx*/
 header {
   display: flex;
   justify-content: space-between;
@@ -74,35 +78,36 @@ nav a {
 nav a:hover {
   text-decoration: underline;
 }
+/*aqui acaba el nav.jsx*/
+
+/*banner*/
+
 .rectangle-container {
   position: relative;
-  margin-right: 3em; 
-  margin-left: 3em;
+  margin: 3em auto; /* Auto para centrar horizontalmente */
   height: 20em;  
   background-color: #BD3F28;
   border-radius: 20px; 
   overflow: hidden;
   display: flex;
-  text-align: center;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column; /* Cambia la dirección a columna para centrar verticalmente */
+  justify-content: center; /* Centra verticalmente */
+  align-items: center; 
   padding: 10px;
 }
 
-.images-container {
-  display: flex;
-  justify-content: space-between; 
-  width: 100%;
-  margin-left: 5em;
-  margin-right: 5em;
-}
 
 .circle-image {
-  width: 13em; 
-  height: 13em;
-  border-radius: 50%; 
+  max-width: 70%;
+  height: 15em; 
+  border-radius: 10%; 
 }
 
+
+/* Oculta el contenedor de las miniaturas o controles de navegación */
+.thumbs-wrapper {
+  display: none;
+}
 .text-overlay {
   position: absolute;
   left: 10px;
@@ -113,20 +118,175 @@ nav a:hover {
   font-weight: bold;
   z-index: 1; 
 }
+/*termina banner aqui*/
+
+/*aqui comienza ofertas.jsx*/
 .ofertas-container {
   display: flex;
   flex-direction: column; 
   align-items: center; 
-  margin-top: -14em;
-  margin-right: -13em; 
+  margin-top: -14em ;
+  margin-left: 20em; 
 }
 .ofertas-images {
   display: flex;
   align-items: center;
 }
-
 .ofertas-images img {
   width: 15em; 
-  margin: 0 1em; 
+  margin: 1em 1em; 
+  border-radius: 1.2em;
+}
+/*aqui acaba ofertas.jsx*/
+
+/* esto es lo nuevo*/
+
+/*aqui comiensa ordenar.jsx*/
+.menu-container {
+  margin: 0em;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.menu-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 1em;
+
+}
+
+.platillo {
+  flex-basis: calc(20% - 1em);
+  padding: 2em;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-right: 3em;
+  margin-left: 3em;
+}
+.platillo-img {
+  max-width: 60%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.platillo-text {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.platillo-input {
+  width: 4em;
+  height: 2em;
+  margin-top: 10px;
+  text-align: center;
+  border: 1px solid #BD3F28;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.order-button {
+  width: 12em;
+  height: 4em;
+  margin: 2em;
+  background-color: #BD3F28;
+  color: #EECC0A;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 1.2em;
+}
+/*aqui acaba ordenar.jsx*/
+
+/*aqu comiensa el login.jsx*/
+.login-container {
+  background-color: white;
+  padding: 2em;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.login-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+  width: 100%;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #BD3F28;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.login-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #BD3F28;
+  color: #EECC0A;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 1.2em;
+}
+/*aqui termina*/
+
+
+/*aqui comienza pedidos.jsx*/
+.section {
+  margin: 0em;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+
+}
+
+.pedido {
+  text-align: center;
+}
+
+.caja{
+  margin: 0 7rem 5rem 7rem;
+  
+}
+
+.caja1 {
+  flex-basis: calc(33.33% - 20px);
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  float: left;
+  margin: 0.5rem;
+  width: 19rem;
+}
+.order-button {
+  width: 5em;
+  height: 3em;
+  margin: auto;
+  background-color: #BD3F28;
+  color: #EECC0A;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
   border-radius: 1.2em;
 }

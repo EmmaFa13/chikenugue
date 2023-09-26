@@ -1,0 +1,50 @@
+/* Estilos generales */
+
+footer {
+  background-color: rgb(217, 79, 29);
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Estilos para pantallas más pequeñas (ejemplo, menos de 768px de ancho) */
+@media screen and (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+  }
+
+  .footer-social,
+  .footer-contacts {
+    margin-top: 20px;
+  }
+}
+
+/* Estilos para las redes sociales */
+.footer-social a {
+  margin-right: 10px;
+  color: #fff;
+}
+
+/* Otros estilos para las demás secciones */
+.footer-contacts p {
+  margin: 5px 0;
+}
+
+.footer-faq a,
+.footer-terms a{
+  margin-top: 20px;
+  color: #fff;
+}
