@@ -1,0 +1,39 @@
+/* Estilos generales */
+#myCarousel {
+  max-width: 800px; /* Establece un ancho máximo para el carrusel */
+  margin: 0 auto; /* Centra el carrusel horizontalmente */
+}
+
+
+
+/* Estilos para las imágenes */
+.carousel-inner img {
+  width: 100%; /* Las imágenes se ajustarán al ancho del carrusel */
+  height: auto; /* Mantendrá la proporción de aspecto de las imágenes */
+  margin-bottom:0.5em;
+
+}
+
+/* Estilos para los indicadores de navegación */
+.carousel-indicators { 
+  text-align: center; /* Centra los indicadores horizontalmente */
+}
+
+/* Estilos para los controles de navegación */
+.carousel-control-prev, .carousel-control-next {
+  background-color: rgba(0, 0, 0, 0.5); /* Color de fondo para los controles */
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: #fff; /* Color de las flechas de navegación */
+}
+
+/* Estilos para hacer el carrusel responsivo */
+@media (max-width: 768px) {
+  #myCarousel {
+      max-width: 100%; /* Utiliza el 100% del ancho disponible en pantallas pequeñas */
+  }
+}

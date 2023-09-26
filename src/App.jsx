@@ -10,6 +10,8 @@ import Pedido from './components/pedido';
 import Login from './components/login';
 import Orden from './components/ordenar';
 import Footer from './components/footer';
+import Carrusel from './components/carrusel';
+import Footer1 from './components/footer1';
 function App() {
   return (
     <BrowserRouter>
@@ -23,7 +25,7 @@ function App() {
         <Login/>
         <Pedido />
       </div>
-      <Footer/>
+      <Footer1/>
     </BrowserRouter>
   );
 }
