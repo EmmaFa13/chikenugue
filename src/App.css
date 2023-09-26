@@ -74,33 +74,30 @@ nav a:hover {
 }
 .rectangle-container {
   position: relative;
-  margin-right: 3em; 
-  margin-left: 3em;
+  margin: 3em auto; /* Auto para centrar horizontalmente */
   height: 20em;  
   background-color: #BD3F28;
   border-radius: 20px; 
   overflow: hidden;
   display: flex;
-  text-align: center;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column; /* Cambia la dirección a columna para centrar verticalmente */
+  justify-content: center; /* Centra verticalmente */
+  align-items: center; 
   padding: 10px;
 }
 
-.images-container {
-  display: flex;
-  justify-content: space-between; 
-  width: 100%;
-  margin-left: 5em;
-  margin-right: 5em;
-}
 
 .circle-image {
-  width: 13em; 
-  height: 13em;
-  border-radius: 50%; 
+  max-width: 70%;
+  height: 15em; 
+  border-radius: 10%; 
 }
 
+
+/* Oculta el contenedor de las miniaturas o controles de navegación */
+.thumbs-wrapper {
+  display: none;
+}
 .text-overlay {
   position: absolute;
   left: 10px;
@@ -122,7 +119,6 @@ nav a:hover {
   display: flex;
   align-items: center;
 }
-
 .ofertas-images img {
   width: 15em; 
   margin: 0 1em; 

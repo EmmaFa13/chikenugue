@@ -14,12 +14,7 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Header />
-        <Banner />
-        <Boton />
-        <Ofertas />
-        <Header/>
         <Orden />
-        <Pedido />  
       </div>
     </BrowserRouter>
   );
