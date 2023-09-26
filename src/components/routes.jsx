@@ -1,15 +1,18 @@
 import React from 'react';
-import { Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Router, Routes } from 'react-router-dom';
 import Orden from './ordenar';
 import Banner from './banner';
 import Contacto from './prueba';
 import Order from '../Order'
+import Pedido from './pedido';
 export const AppRoutes = () => {
   return (
+    <BrowserRouter>
     <Routes>
-      <Route exact path="/" element={<Banner />} />
-      <Route path="prueba/" element={<Contacto />} />
-      <Route path="Order/" element={<Order />} />
+      <Route path="/" element={<Banner />} />
+      <Route path="/prueba" element={<Contacto />} />
+      <Route path="/ordenar" element={<Orden />} />
     </Routes>
+    </BrowserRouter>
   );
 };
